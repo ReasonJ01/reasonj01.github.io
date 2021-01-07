@@ -26,7 +26,7 @@ clear_color_alpha = 0
 [physics]
 type = 2D
 gravity_y = -10
-debug = 1
+debug = 0
 debug_alpha = 0.9
 world_count = 4
 gravity_x = 0
@@ -65,6 +65,7 @@ max_sound_buffers = 32
 max_sound_sources = 16
 max_sound_instances = 256
 max_component_count = 32
+use_thread = 1
 
 [resource]
 http_cache = 0
